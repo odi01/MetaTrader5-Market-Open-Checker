@@ -8,15 +8,15 @@ import os
 
 WhatAppGroupID = "PUT_HERE_THE_GROUP_ID"
 
-MiddleEastNine_txt = "Market Open - Middle East Markets opening - Was successful - Ido"
-JSE_txt = "Market Open - JSE-DEC21 - was successful - Ido"
-MiddleEastTen_txt = "Market Open - Middle East Markets opening was successful (TADAWUL, SABIC, STC, ARAMCO) - Ido"
-Europe_txt = "Market Open - Europe was successful - Ido"
-SUG11_txt = "Market open - Future Commodities check (SUG11-MAR22) - was successful - Ido"
-COFFEE_txt = "Market open - Future Commodities check (COFFE-DEC21) - was successful - Ido"
-COCOA_txt = "Market open - Future Commodities check (COCOA-DEC21) - was successful - Ido"
-ORANGE_txt = "Market open - Future Commodities check (ORANG-NOV21) - was successful - Ido"
-UsMarket_txt = "Market open - US Markets check - was successful - Ido"
+MiddleEastNine_txt = "Market Open - Middle East Markets opening - Was successful"
+JSE_txt = "Market Open - JSE-DEC21 - was successful"
+MiddleEastTen_txt = "Market Open - Middle East Markets opening was successful (TADAWUL, SABIC, STC, ARAMCO)"
+Europe_txt = "Market Open - Europe was successful"
+SUG11_txt = "Market open - Future Commodities check (SUG11-MAR22) - was successful"
+COFFEE_txt = "Market open - Future Commodities check (COFFE-DEC21) - was successful"
+COCOA_txt = "Market open - Future Commodities check (COCOA-DEC21) - was successful"
+ORANGE_txt = "Market open - Future Commodities check (ORANG-NOV21) - was successful"
+UsMarket_txt = "Market open - US Markets check - was successful"
 
 
 def send_message(txt):
