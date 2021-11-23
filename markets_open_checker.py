@@ -9,7 +9,7 @@ import requests
 import schedule
 from urllib3 import disable_warnings, exceptions
 
-sys.path.insert(1, 'C:/Code/dealing-tools')  # For the config file path
+sys.path.insert(1, 'C:/Code/change_the_path')  # For the config file path
 from config import *
 from market_open_config import *
 from send_whatsapp_message import *
@@ -35,7 +35,7 @@ def mt5_auth(login, password):
     srv_rand_answer = hashlib.md5(password_hash_total + bytearray.fromhex(srv_rand)).hexdigest()
     auth_answer_response = s.get("{}/api/auth/answer?srv_rand_answer={}&cli_rand=677ab515ac4682ecb15f4ee0e0c2847b".
                                  format(mt5_url, srv_rand_answer),
-                                 verify='/mt5-dev.pem')
+                                 verify='/cret_file.pem')
     # print(auth_answer_response.json())
     return s
 
